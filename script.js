@@ -5,6 +5,10 @@ let one = document.getElementById("one")
 let two = document.getElementById("two")
 let bg = document.getElementById("bg")
 let nl = document.getElementById("nl")
+let nv = document.getElementById("nv")
+let lg= document.getElementById("lg")
+let r = document.getElementById("r")
+let tt = document.getElementById("tt")
 
 down.onclick = function(){
     down.classList.toggle("fa-caret-down")
@@ -28,4 +32,8 @@ two.onclick = function(){
 }
 bg.onclick = function(){
     nl.classList.toggle("opp")
+    nv.classList.toggle("oppa")
+    lg.classList.toggle("nn")
+    r.classList.toggle("nn")
+    tt.classList.toggle("nn")
 }
